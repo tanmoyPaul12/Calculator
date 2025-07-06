@@ -1,4 +1,12 @@
+body{
+    background-color: antiquewhite;
+}
+
 #calculator{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
     background-color: black;
     border: 1px solid rgb(65, 63, 63);
     border-radius: 5px;
@@ -19,7 +27,7 @@
     margin: 2px;
     width: 45px;
     height: 40px;
-    background-color: crimson;
+    color: crimson;
 }
 .button:hover{
     background-color: brown;
