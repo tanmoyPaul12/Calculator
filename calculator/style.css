@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+}
+
+#calculator{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    background-color: black;
+    border: 1px solid rgb(65, 63, 63);
+    border-radius: 5px;
+    width: 200px;
+}
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 30px;
+}
+.button-container{
+    margin: 5px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.button{
+    margin: 2px;
+    width: 45px;
+    height: 40px;
+    color: crimson;
+}
+.button:hover{
+    background-color: brown;
+    color: #fff
+}
+
+
+
+
+
